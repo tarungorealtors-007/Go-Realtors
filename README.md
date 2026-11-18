@@ -8,7 +8,7 @@ Supabase (Postgres + Auth + Storage) · deploys to Vercel.
 
 ---
 
-## Quick start
+## Quick start 
 
 ```bash
 npm install
