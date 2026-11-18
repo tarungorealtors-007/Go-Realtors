@@ -26,9 +26,9 @@ export const SITE = {
   hours: "Mon - Sat, 10:00 AM - 7:30 PM IST",
   social: {
     facebook: "https://www.facebook.com/people/Gorealtorsofficial/61578859582715/",
-    instagram: "https://www.instagram.com/gorealtors.official/",
+    instagram: "https://www.instagram.com/gorealtorspro.in/",
     linkedin: "https://www.linkedin.com/company/gorealtorsofficial",
-    youtube: "https://www.youtube.com/@GoRealtors.Official/shorts",
+    youtube: "https://www.youtube.com/@Gorealtorspro",
   },
   stats: {
     unitsAdvised: "1,200+",

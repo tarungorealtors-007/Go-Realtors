@@ -32,12 +32,12 @@ export function LogoMark({ className }: { className?: string }) {
 }
 
 /**
- * Renders the uploaded GoRealtors brand lockup.
- * - `variant="dark"` (default) → dark-text logo, for use on LIGHT backgrounds (header).
- * - `variant="light"` → white logo, for use on DARK backgrounds (footer).
+ * Renders the GoRealtors horizontal brand lockup.
+ * - `variant="dark"` (default) → ink lockup, for use on LIGHT backgrounds (header).
+ * - `variant="light"` → white lockup, for use on DARK backgrounds (footer).
  *
  * `withTagline` is accepted for backwards compatibility but no longer changes
- * the artwork, since the uploaded lockups already include the brand wordmark.
+ * the artwork, since the lockup already includes the wordmark and tagline.
  */
 export function Logo({
   variant = "dark",
@@ -49,7 +49,10 @@ export function Logo({
   className?: string;
   withTagline?: boolean;
 }) {
-  const src = variant === "light" ? "/brand/logo-light.png" : "/brand/logo-dark.png";
+  const src =
+    variant === "light"
+      ? "/brand/logo-horizontal-light.png"
+      : "/brand/logo-horizontal-dark.png";
   return (
     <Link
       href="/"
@@ -58,11 +61,11 @@ export function Logo({
     >
       <Image
         src={src}
-        alt="GoRealtors"
-        width={500}
-        height={360}
+        alt="GoRealtors — Real Estate Advisors"
+        width={1200}
+        height={276}
         priority
-        className="h-12 w-auto"
+        className="h-9 w-auto sm:h-10 lg:h-11"
       />
     </Link>
   );
