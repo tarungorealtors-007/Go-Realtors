@@ -573,10 +573,10 @@ export default async function HomePage() {
         {/* full team group photo */}
         <figure className="relative mt-10 overflow-hidden rounded-lg bg-ink-100">
           <Image
-            src="/team/leadership-group.jpg"
+            src="/brand/team-banner.jpg"
             alt="The GoRealtors team"
-            width={1800}
-            height={1013}
+            width={1920}
+            height={878}
             sizes="(max-width:1280px) 100vw, 80rem"
             className="h-auto w-full object-cover"
           />
