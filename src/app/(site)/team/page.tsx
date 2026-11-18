@@ -32,6 +32,27 @@ export default async function TeamPage() {
         size="compact"
       />
 
+      {/* ---- full team photograph ---- */}
+      <section className="border-b border-ink-200 bg-ink-50/60">
+        <div className="shell py-10 lg:py-14">
+          <div className="card overflow-hidden">
+            <Image
+              src="/brand/team-banner.jpg"
+              alt="The GoRealtors advisory team"
+              width={1920}
+              height={878}
+              priority
+              sizes="(min-width: 1280px) 1200px, 100vw"
+              className="h-auto w-full"
+            />
+          </div>
+          <p className="mt-5 text-center text-[0.8125rem] text-ink-500">
+            The GoRealtors bench — advisory, investment analysis, NRI desk and
+            post-sale support, all under one roof in Sector 83, Gurugram.
+          </p>
+        </div>
+      </section>
+
       <section className="shell py-14 lg:py-20">
         <SectionHeading
           eyebrow="Advisory team"

@@ -1473,13 +1473,13 @@ insert into settings (key, value, group_name) values ('contact.postal_code', to_
 on conflict (key) do update set value = excluded.value, group_name = excluded.group_name;
 insert into settings (key, value, group_name) values ('contact.hours', to_jsonb('Mon - Sat, 10:00 AM - 7:30 PM IST'::text), 'contact')
 on conflict (key) do update set value = excluded.value, group_name = excluded.group_name;
-insert into settings (key, value, group_name) values ('social.instagram', to_jsonb('https://www.instagram.com/gorealtors.official/'::text), 'social')
+insert into settings (key, value, group_name) values ('social.instagram', to_jsonb('https://www.instagram.com/gorealtorspro.in/'::text), 'social')
 on conflict (key) do update set value = excluded.value, group_name = excluded.group_name;
 insert into settings (key, value, group_name) values ('social.facebook', to_jsonb('https://www.facebook.com/people/Gorealtorsofficial/61578859582715/'::text), 'social')
 on conflict (key) do update set value = excluded.value, group_name = excluded.group_name;
 insert into settings (key, value, group_name) values ('social.linkedin', to_jsonb('https://www.linkedin.com/company/gorealtorsofficial'::text), 'social')
 on conflict (key) do update set value = excluded.value, group_name = excluded.group_name;
-insert into settings (key, value, group_name) values ('social.youtube', to_jsonb('https://www.youtube.com/@GoRealtors.Official/shorts'::text), 'social')
+insert into settings (key, value, group_name) values ('social.youtube', to_jsonb('https://www.youtube.com/@Gorealtorspro'::text), 'social')
 on conflict (key) do update set value = excluded.value, group_name = excluded.group_name;
 insert into settings (key, value, group_name) values ('brand.tagline', to_jsonb('Let''s Go Real'::text), 'brand')
 on conflict (key) do update set value = excluded.value, group_name = excluded.group_name;

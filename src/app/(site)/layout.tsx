@@ -14,6 +14,7 @@ export default function SiteLayout({
     name: SITE.legalName,
     alternateName: SITE.name,
     url: SITE.url,
+    logo: `${SITE.url}/brand/logo-horizontal-dark.png`,
     description: SITE.description,
     slogan: SITE.tagline,
     telephone: SITE.phone,
